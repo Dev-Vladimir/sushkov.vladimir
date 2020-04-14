@@ -527,4 +527,12 @@ h2
 	{
 		max-width: 80%;
 	}
+	.comments
+	{
+		padding: 20px
+	}
+	.posts, .posts-inline
+	{
+		padding: 20px
+	}
 }
