@@ -509,4 +509,7 @@ h2
 	{
 		flex-basis: 100%;
 	}
+	.subscribe>input
+	{
+		max-width: 90%
 }
