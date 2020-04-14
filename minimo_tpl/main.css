@@ -531,7 +531,7 @@ h2
 	{
 		padding: 20px
 	}
-	.posts, .posts-inline
+	.posts, .posts-inline, .post__text
 	{
 		padding: 20px
 	}
