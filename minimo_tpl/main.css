@@ -452,10 +452,24 @@ h2
 
 }
 @media (max-width: 775px) {
-	.container, .footer
+	body
+	{
+		line-height: 32px;
+	}
+	h2
+	{
+		line-height: auto;
+	}
+	.container
 	{
 		width: 400px;
 		margin: auto;
+	}
+	.footer
+	{
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.main-screen__head
 	{
@@ -511,5 +525,6 @@ h2
 	}
 	.subscribe>input
 	{
-		max-width: 90%
+		max-width: 80%;
+	}
 }
